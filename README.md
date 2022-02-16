@@ -24,6 +24,7 @@ For this assignment, you will create an .Rmd report about incarceration in the U
 
 - An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
 - A paragraph of summary information, citing at least 5 values calculated from the data
+- A description of the dataset, who collected it, why, and any limitations or problems with the data
 - A chart that shows trends over time for a variable of your choice
 - A chart that compares two variables to one another
 - A map that shows how your measure of interest varies geographically
