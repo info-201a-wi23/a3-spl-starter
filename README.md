@@ -10,7 +10,7 @@ This assignment is more open-ended than previous ones. You will be tasked with u
 
 # Data
 
-The data for this assignment comes from the [Vera Institute](https://github.com/vera-institute/incarceration-trends). We have split the full data into a number of smaller, separate files to make it easier to work with:
+The data for this assignment comes from the [Vera Institute](https://github.com/vera-institute/incarceration-trends). We have split the full data into a number of smaller, separate files to make it easier to work with (these are the raw CSV files so you can right-click to copy and paste them):
 - [Dataset about prison population per county/state](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-prison-pop.csv?raw=true)
 - [Dataset about jail population per county/state](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-jail-pop.csv?raw=true)
 - [Dataset about prison/jail population per 100,000 people (rate) per county/state](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-prison-jail-rates.csv?raw=true)
