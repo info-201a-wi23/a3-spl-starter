@@ -68,4 +68,4 @@ The last chart that you will create and include will show how a variable is dist
 - Your map needs a title
 - Your color scale needs a legend with a clear label
 - Use a map based coordinate system to set the aspect ratio of your map
-- Use a minimalist theme for the map 
+
