@@ -1,29 +1,24 @@
 # Assignment 3: Incarceration
 
-Link to your final GitHub pages site here: https://info-201a-sp22.github.io/a3-starter/index.html (change the link to for your GitHub pages site)
+Link to your final GitHub pages site here: https://info-201a-wi23.github.io/a3-spl-starter/index.html (change the link to for your GitHub pages site)
 
-America is the country with the greatest number of people incarcerated in the world, and of all Americans, people of color, especially Black people, are incarcerated at disproportionately high rates — the result of both historical and present-day racism. But just how much have prison and jail populations increased over time, and how do race and gender figure into these trends? How, if at all, can a deeper analysis of these trends help identify possible solutions and areas where the public needs to pay more attention?
+In this assignment, you will use your data analysis and visualization skills to analyze patterns and trends in [library circulation data published by the Seattle Public Library](https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6).
 
-In this assignment, you will use your data analysis and visualization skills to expose patterns of inequality using incarceration data collected by the [Vera Institute](https://github.com/vera-institute/incarceration-trends). You will create an R Markdown file and share it as a small website via GitHub pages.
-
-This assignment is more open-ended than previous ones. You will be tasked with understanding the data itself, choosing the variables you want to analyze, and deciding the optimal way to write your code. 
+This assignment is more open-ended than previous ones. You will be tasked with understanding the data itself, choosing the variables you want to analyze, and deciding the optimal way to write your code.
 
 # Data
 
-The data for this assignment comes from the [Vera Institute](https://github.com/vera-institute/incarceration-trends). We have split the full data into a number of smaller, separate files to make it easier to work with (these are the raw CSV files so you can right-click to copy and paste them):
-- [Dataset about prison population per county/state](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-prison-pop.csv?raw=true)
-- [Dataset about jail population per county/state](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-jail-pop.csv?raw=true)
-- [Dataset about prison/jail population per 100,000 people (rate) per county/state](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-prison-jail-rates.csv?raw=true)
-- [Smaller dataset about prison/jail population per 100,000 people (rate) per county/state starting at 1990](https://github.com/melaniewalsh/Neat-Datasets/blob/main/us-prison-jail-rates-1990.csv?raw=true)
-- [Smaller dataset about prison/jail population per 100,000 people (rate) per county/state starting at 1990 in Washington](https://github.com/melaniewalsh/Neat-Datasets/raw/main/us-prison-jail-rates-1990-WA.csv)
+The data for this assignment comes from the [Seattle Public Library](https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6). The library has checkout data going back to 2005, and it includes more than 40 million rows, which is too large to fit on our laptops. So we are including smaller datasets that you can use, and you are free to work with any or all of these datasets.
 
-You can work with any or all of these datasets for your analysis.
+To access the datasets, you will need to download them as zip files by clicking one or more of the links on Canvas, and then you will need to unzip the file(s) and load the CSV files into RStudio by providing the correct file path(s). 
 
-A few more notes:
-- Even though this data is smaller, it may still take about a minute to load because it's large. Feel free to save a copy of the data (or a subset of it) in your directory
-- Follow this [link to download the "Codebook"](https://github.com/vera-institute/incarceration-trends/blob/master/incarceration_trends-Codebook.pdf) that explains the meaning of each variable. You'll need to understand what each variable represents, so read carefully!
-- Beware of missing values. When choosing what to visualize, you will want to focus on a particular location and/or year that has sufficient data (note, this varies across the variables)
-- Take your time. You should expect to spend at least a few hours studying the data and the documentation to understand the structure of this data set. Be patient!
+- Dataset with items checked out at least 5 times a month from 2013-2023 (file size: +1 GB) 
+- Dataset with items checked out at least 10 times a month from 2017-20203 (file size: 229 MB)
+- Dataset with all items checked out in 2022-2023 (file size: 709 MB)
+
+The datasets are large, so you should assess how much storage space you have on your computer (Mac / Windows), and then decide which dataset to choose based on that assessment. You are also welcome to create and use your own datasets through the [SPL Open Data portal](https://data.seattle.gov/Community/Checkouts-by-Title/tmmm-ytt6/explore).
+
+For example, if you want to compare the number of checkouts for all of the Lord of the Rings books, you could go into the portal, search for Lord of Rings (you might need to use advanced search and filtering options for some searches), and then download the relevant data and upload it into RStudio for use in your assignment.
 
 # Assignment Structure
 
