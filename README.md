@@ -1,4 +1,4 @@
-# Assignment 3: Incarceration
+# Assignment 3: SPL Library Checkouts
 
 Link to your final GitHub pages site here: https://info-201a-wi23.github.io/a3-spl-starter/index.html (change the link to for your GitHub pages site)
 
