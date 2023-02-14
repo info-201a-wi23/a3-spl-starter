@@ -23,6 +23,7 @@ Feel free to calculate and report values that you find relevant.
 ### The Dataset
 
 - Who collected/published the data?  
+- What are the parameters of the data (dates, number of checkouts, kinds of books, etc.)?
 - How was the data collected or generated?  
 - Why was the data collected?  
 - What, if any, ethical questions do you need to consider when working with this data?  

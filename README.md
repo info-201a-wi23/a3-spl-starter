@@ -22,11 +22,11 @@ For example, if you want to compare the number of checkouts for all of the Lord 
 
 # Assignment Structure
 
-For this assignment, you will create an .Rmd report about incarceration in the U.S., which must include:
+For this assignment, you will create a report about library circulation trends, which must include:
 
-- An introduction of the problem domain and a description of the variable(s) you are choosing to analyze (and why!)
+- An introduction of the data and a description of the trends/books/items you are choosing to analyze (and why!)
 - A paragraph of summary information, citing at least 5 values calculated from the data
-- A description of the dataset, who collected it, why, and any limitations or problems with the data
-- A chart that shows trends over time for a variable of your choice
-- A chart that compares two variables to one another
-- A map that shows how your measure of interest varies geographically
+- A more detailed description of the dataset, who collected/published it, why, and any limitations or problems with the data
+- A first chart that shows trends over time for variables of your choice
+- A second chart that shows trends over time for a variables of your choice
+- A third chart that uses any kind of plot (bar chart, scatterplot, it's up to you)
